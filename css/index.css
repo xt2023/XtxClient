@@ -1,0 +1,66 @@
+.xtx-entry {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+.xtx-entry .container {
+    height: 500px;
+    /*ps*/
+    background-color: pink;
+    position: relative;
+}
+.xtx-entry .container .category {
+    width: 251px;
+    height: 500px;
+    background-color: rgba(0,0,0,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.xtx-entry a {
+    color: #ffffff;
+}
+.xtx-entry .category li {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 36px;
+    position: relative;
+}
+.xtx-entry li span {
+    font-size: 14px;
+}
+.xtx-entry li span:first-child {
+    margin-left: 15px;
+}
+.xtx-entry li:hover {
+    background-color: #27ba9b;
+}
+.xtx-entry .category a::after {
+    content: '';
+    width: 6px;
+    height: 11px;
+    position: absolute;
+    top: 19px;
+    right: 19px;
+    background: url("../images/sprites.png")-80px -110px;
+}
+
+
+.xtx-entry .prev {
+    width: 45px;
+    height: 45px;
+
+    position: absolute;
+    top: 228px;
+    left: 260px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.2) url(../images/sprites.png) 13px -59px;
+}
+.xtx-entry .next {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: 228px;
+    right: 10px;
+    background: rgba(0,0,0,.2) url(../images/sprites.png) -24px -61px;
+}
