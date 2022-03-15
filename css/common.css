@@ -9,6 +9,7 @@
     height: 52px;
     background-color: #333333;
 }
+
 .xtx-shortcut .container {
     height: 52px;
     /*background-color: skyblue;*/
@@ -25,9 +26,11 @@
     font-size: 14px;
     color: #dcdcdc;
 }
+
 .xtx-shortcut li:last-child a {
     margin-right: 0;
 }
+
 .xtx-shortcut li:last-child a::before {
     content: '';
     display: inline-block;
@@ -55,6 +58,7 @@
     /*background-color: skyblue;*/
     margin-left: 25px;
 }
+
 .xtx-main-nav .logo a {
     display: block;
     width: 207px;
@@ -75,6 +79,7 @@
 .xtx-main-nav nav {
     margin-left: 40px;
 }
+
 .xtx-main-nav nav a:hover {
     color: #27ba9b;
     border-bottom: 1px solid #27ba9b;
@@ -91,7 +96,7 @@
     position: relative;
 }
 
-.xtx-main-nav .search::before{
+.xtx-main-nav .search::before {
     content: '';
     width: 18px;
     height: 18px;
@@ -100,6 +105,7 @@
     margin-left: 2px;
     background: url("../images/sprites.png") -80px -70px;
 }
+
 .xtx-main-nav .search input {
     height: 30px;
     width: 172px;
@@ -115,8 +121,9 @@
     margin-left: 15px;
     /*background-color: red;*/
     margin-top: 28px;
-    background: url("../images/sprites.png")-120px -70px;
+    background: url("../images/sprites.png") -120px -70px;
 }
+
 .xtx-main-nav .cart span {
     width: 20px;
     height: 15px;
@@ -136,6 +143,7 @@
     height: 174px;
     background-color: #333333;
 }
+
 .xtx-service .container {
     /*background-color: pink;*/
     height: 174px;
@@ -143,7 +151,8 @@
     border-bottom: 1px solid #434343;
     box-sizing: border-box;
 }
-.xtx-service .container a{
+
+.xtx-service .container a {
     width: 33.33%;
     height: 173px;
     /*ps*/
@@ -154,6 +163,7 @@
     font-size: 28px;
     color: #fff;
 }
+
 .xtx-service .container a::before {
     content: '';
     width: 58px;
@@ -165,17 +175,21 @@
     margin-right: 19px;
     background: url("../images/sprites.png") 0 0;
 }
+
 .xtx-service a:nth-child(2)::before {
     background-position: -130px 0;
 }
+
 .xtx-service a:nth-child(3)::before {
     background-position: -65px 0;
 }
+
 /*版权信息*/
 .xtx-copyright {
     height: 168px;
     background-color: #333333;
 }
+
 .xtx-copyright .container {
     /*ps*/
     /*background-color: pink;*/
@@ -184,9 +198,11 @@
     font-size: 14px;
     padding-top: 41px;
 }
+
 .xtx-copyright .container a {
     color: #999;
 }
+
 .xtx-copyright .container p:nth-child(2) {
     margin-top: 19px;
 }

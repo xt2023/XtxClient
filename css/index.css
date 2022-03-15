@@ -2,38 +2,46 @@
     height: 500px;
     background-color: #f5f5f5;
 }
+
 .xtx-entry .container {
     height: 500px;
     /*ps*/
     background-color: pink;
     position: relative;
 }
+
 .xtx-entry .container .category {
     width: 251px;
     height: 500px;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .xtx-entry a {
     color: #ffffff;
 }
+
 .xtx-entry .category li {
     height: 50px;
     line-height: 50px;
     padding-left: 36px;
     position: relative;
 }
+
 .xtx-entry li span {
     font-size: 14px;
 }
+
 .xtx-entry li span:first-child {
     margin-left: 15px;
 }
+
 .xtx-entry li:hover {
     background-color: #27ba9b;
 }
+
 .xtx-entry .category a::after {
     content: '';
     width: 6px;
@@ -41,7 +49,7 @@
     position: absolute;
     top: 19px;
     right: 19px;
-    background: url("../images/sprites.png")-80px -110px;
+    background: url("../images/sprites.png") -80px -110px;
 }
 
 
@@ -53,8 +61,9 @@
     top: 228px;
     left: 260px;
     border-radius: 50%;
-    background: rgba(0,0,0,.2) url(../images/sprites.png) 13px -59px;
+    background: rgba(0, 0, 0, .2) url(../images/sprites.png) 13px -59px;
 }
+
 .xtx-entry .next {
     width: 45px;
     height: 45px;
@@ -62,7 +71,7 @@
     position: absolute;
     top: 228px;
     right: 10px;
-    background: rgba(0,0,0,.2) url(../images/sprites.png) -24px -61px;
+    background: rgba(0, 0, 0, .2) url(../images/sprites.png) -24px -61px;
 }
 
 /*轮播指示器*/
@@ -74,18 +83,21 @@
     left: 680px;
     bottom: 31px;
 }
+
 .xtx-entry .indicator li {
     float: left;
     width: 10px;
     height: 10px;
     margin-right: 15px;
     border-radius: 50%;
-    background-color: rgba(255,255,255,.43);
+    background-color: rgba(255, 255, 255, .43);
 
 }
+
 .xtx-entry .indicator li:last-child {
     margin-right: 0;
 }
+
 .xtx-entry .indicator li.active {
     background-color: #fff;
 }
@@ -95,17 +107,20 @@
     height: 520px;
     /*background-color: skyblue;*/
 }
+
 .xtx-new--goods .goods-hd {
     height: 114px;
     /*ps*/
     /*background-color: pink;*/
 
 }
+
 .xtx-new--goods .goods-list {
     height: 409px;
     background-color: #f0f9f4;
 
 }
+
 .xtx-new--goods .goods-hd h2 {
     line-height: 114px;
     font-size: 29px;
@@ -114,16 +129,19 @@
     height: 114px;
 
 }
+
 .xtx-new--goods .goods-hd span {
     margin-left: 34px;
     font-size: 16px;
     color: #999999;
 
 }
+
 .xtx-new--goods .goods-hd a {
     color: #999999;
     line-height: 114px;
 }
+
 .xtx-new--goods .goods-hd a::after {
     content: '';
     width: 7px;
@@ -143,25 +161,31 @@
     float: left;
     margin-right: 8px;
 }
+
 .xtx-new--goods .goods-list li:last-child {
     margin-right: 0;
 }
+
 .xtx-new--goods .goods-list li img {
     width: 100%;
 }
+
 .xtx-new--goods .goods-list li a {
     text-align: center;
     line-height: 1;
 }
+
 .xtx-new--goods .goods-list li a h3 {
     margin-top: 22px;
     margin-bottom: 19px;
     color: #333333;
     font-size: 20px;
 }
+
 .xtx-new--goods .goods-list li a p {
     font-size: 23px;
 }
+
 .xtx-new--goods .goods-list li a span {
     font-size: 17px;
 }
